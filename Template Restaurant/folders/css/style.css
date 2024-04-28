@@ -1,0 +1,33 @@
+#hero {
+  padding: 6.4rem 0;
+}
+
+#opening {
+}
+
+.bg-custom {
+  background-color: #f4e5e1;
+}
+
+.text-main {
+  color: #065346;
+}
+
+.btn {
+  width: 40%;
+  border: none;
+  background-color: #065346;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #05493d;
+}
+
+.img-box img {
+  border-radius: 1rem;
+  filter: contrast(90%);
+  object-fit: cover;
+}
