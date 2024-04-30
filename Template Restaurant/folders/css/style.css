@@ -24,6 +24,10 @@
   padding: 2.4rem 0 4.8rem 0;
 }
 
+#hours {
+  padding: 1.2rem 0;
+}
+
 /* ---------------------------------- */
 /*               GENERAL              */
 /* ---------------------------------- */
@@ -152,13 +156,35 @@
 }
 
 /* ---------------------------------- */
+/*                HOURS               */
+/* ---------------------------------- */
+
+@keyframes animatedHeader {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animated-header {
+  animation: animatedHeader 5s linear infinite alternate;
+}
+
+/* ---------------------------------- */
 /*               FOOTER               */
 /* ---------------------------------- */
 
 .footer-img {
   width: 5rem;
   height: 5rem;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .tel-nummer {
