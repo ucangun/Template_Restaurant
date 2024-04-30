@@ -150,3 +150,22 @@
   background-position: center;
   background-color: rgba(6, 83, 70, 0.5);
 }
+
+/* ---------------------------------- */
+/*               FOOTER               */
+/* ---------------------------------- */
+
+.footer-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.tel-nummer {
+  text-decoration: none;
+}
+
+iframe {
+  filter: grayscale(60%);
+  border-radius: 1rem;
+}
