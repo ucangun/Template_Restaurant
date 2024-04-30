@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 /* ---------------------------------- */
 /*              SECTIONS              */
 /* ---------------------------------- */
@@ -11,7 +13,7 @@
 }
 
 #menus {
-  padding: 5.6rem 0;
+  padding: 0 0 5.6rem 0;
 }
 
 #logos {
@@ -75,12 +77,51 @@
   width: 150px;
 }
 
+/* ---------------------------------- */
+/*                MENUS               */
+/* ---------------------------------- */
+
+.menus-header {
+  transition: all 0.5s;
+}
+
+.menus-header:hover {
+  transform: scaleX(1.2);
+}
+
+.card {
+  transition: all 0.3s;
+  box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
 .card img {
   width: 100%;
-  height: 40%;
+
   filter: contrast(80%);
   object-fit: cover;
   overflow: hidden;
+}
+
+.card i {
+  color: #065346;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.card-body a {
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.card-body a:hover {
+  background-color: #065346;
+  color: #fff;
 }
 
 /* ---------------------------------- */

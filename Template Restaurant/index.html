@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Umut's Restaurant</title>
+    <link rel="shortcut icon" href="./folders/img/mainlogo.png" type="image/x-icon">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,7 +19,7 @@
     <!--             NAVBAR              -->
     <!-- ------------------------------- -->
     <nav class="navbar navbar-expand-md bg-custom" >
-      <div class="container-fluid px-5 py-1">
+      <div class="container px-5 py-1">
         <a class="navbar-brand  text-main" href="#">
           <img class="navbar_logo" src="./folders/img/mainlogo.png" alt="">
         </a>
@@ -51,7 +52,7 @@
     <!-- ------------------------------- -->
 
     <section id="hero" class="bg-custom" ">
-      <div class="container-lg">
+      <div class="container">
         <div class="row ">
           <div class="col-sm-12  col-lg-6 d-flex flex-column justify-content-center p-4">
             <h1 class="text-main align-self-start">
@@ -100,32 +101,78 @@
     <!-- ------------------------------- -->
 
     <section id="menus">
+
+      <div class="menus-header">
+        <h1 class="text-center text-main py-5">Unsere Spezialmenüs</h1>
+      </div>
+
+
       <div class="container">
-        <div class="row justify-content-center gap-5">
-          <div class="card p-0" style="width: 20rem;">
+        <div class="row row-gap-5 justify-content-center">
+
+        <div class="col-12 col-md-4">
+          <div class="card" >
             <img src="./folders/img/menu1.jpg" class="card-img-top card-img-bottom " alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Quinoasalat mit Avocado und Tomaten</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Avocadosalat mit Tomaten</h5>
+              <p class="card-text">
+                Entdecken Sie unsere erfrischende Avocado-Tomatensalat-Kreation! Frische, reifen Avocado und saftige Tomaten werden kunstvoll kombiniert, um Ihnen einen Geschmackserlebnis der Extraklasse zu bieten.
+              </p>
+              <p>
+                <i class="bi bi-fire"></i> <strong>540</strong> Kalorie
+              </p>
+              <p>
+                <i class="bi bi-capsule"></i>
+                Nutri-Score <strong>86</strong> 
+              </p>
+
+              <a href="#" class="text-main align-self-center">Inhalt &rarr;</a>
+
             </div>
           </div>
-          <div class="card p-0" style="width: 20rem;">
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card" >
             <img src="./folders/img/menu2.jpg" class="card-img-top card-img-bottom" alt="...">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column p-4">
               <h5 class="card-title">Gebratener Tofu mit Gemüse</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
+              <p class="card-text">
+                Gebratener Tofu mit frischem Gemüse! Eine perfekte Kombination aus würzigem Tofu und buntem Gemüse, das Ihren Gaumen verwöhnen wird. Probieren Sie jetzt unsere gesunde und köstliche Spezialität!
+              </p>
+              <p>
+                <i class="bi bi-fire"></i> <strong>440</strong> Kalorie
+              </p>
+              <p>
+                <i class="bi bi-capsule"></i>
+                Nutri-Score <strong>92</strong> 
+              </p>
+              <a href="#" class="text-main align-self-center">Inhalt &rarr;</a>
             </div>
           </div>
-          <div class="card p-0" style="width: 20rem;">
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card" >
             <img src="./folders/img/menu3.jpg" class="card-img-top card-img-bottom" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Avocado-Toast mit Tomaten und Rucola </h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-       
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Avocado-Toast mit Tomaten</h5>
+              <p class="card-text">
+                Eine einfache,köstliche Kombination aus cremiger Avocado und saftigen Tomaten auf knusprigem Toast. Perfekt für ein gesundes Frühstück oder einen leichten Snack zwischendurch. Gönnen Sie sich jetzt dieses geschmackvolle Vergnügen!
+                
+              </p>
+              <p>
+                <i class="bi bi-fire"></i> <strong>620</strong> Kalorie
+              </p>
+              <p>
+                <i class="bi bi-capsule"></i>
+                Nutri-Score <strong>74</strong> 
+              </p>
+              <a href="#" class="text-main align-self-center">Inhalt &rarr;</a>
             </div>
           </div>
+        </div>
+       
 
         </div>
       </div>
@@ -137,7 +184,7 @@
 
     <section id="opening" class="bg-custom" >
       <div class="container p-3 text-center text-white opening-box">
-        <h2 >Auf unsere Eröffnung sind Sie eingeladen."</h2>
+        <h2 >"Zur Eröffnung unserer neuen Filiale sind Sie herzlich eingeladen."</h2>
         <p> Mai 15 , 2024</p>
         <p >Am Marktplatz 5 10178 Berlin</p>
         <p>ab 12.00 Uhr</p>
