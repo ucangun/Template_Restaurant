@@ -97,6 +97,21 @@ body {
   object-fit: cover;
 }
 
+#hero .btn {
+  transition: all 0.3s;
+}
+
+#hero .btn:hover {
+  background-color: #05493d;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.6);
+}
+
+#hero .btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.3);
+}
 /* ---------------------------------- */
 /*                LOGOS               */
 /* ---------------------------------- */
@@ -181,6 +196,13 @@ body {
   background-color: rgba(6, 83, 70, 0.5);
 }
 
+@media (max-width: 768px) {
+  #opening h3 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+}
+
 /* ---------------------------------- */
 /*                HOURS               */
 /* ---------------------------------- */
@@ -191,7 +213,7 @@ body {
   }
 
   50% {
-    transform: translateX(50%);
+    transform: translateX(40%);
   }
 
   100% {
@@ -201,6 +223,11 @@ body {
 
 .animated-header {
   animation: animatedHeader 5s linear infinite alternate;
+}
+
+#hours .btn:active {
+  background-color: #05493d;
+  color: #fff;
 }
 
 /* ---------------------------------- */
