@@ -140,6 +140,15 @@ body {
   object-fit: cover;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .card-text {
+    font-size: 14px;
+  }
+
+  .card h5 {
+    font-size: 18px;
+  }
+}
 
 .card i {
   color: #065346;
