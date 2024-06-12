@@ -20,6 +20,7 @@ The primary objective of this project is to enhance and showcase my skills in Bo
 ```
 
 ## Outcome
+![Umut-s Restaurant](https://github.com/ucangun/Umut-s_Restaurant/assets/149247682/866e40f1-16ad-4cf2-95d6-b41b3647938b)
 
 
 ## Technologies Used
