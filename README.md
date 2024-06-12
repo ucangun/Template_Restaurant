@@ -1,4 +1,4 @@
-# Rock Paper Scissor Game
+# Umut's Vegan Restaurant App
 
 https://umutsveganestaurant.netlify.app/
 
